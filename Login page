@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>www.AlpHA.com</title>
+<style type="text/css">
+    *{padding: 0; margin: 0;box-sizing: border-box;}
+    header{
+        width: 100%;
+        height: 100vh;
+        background:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.0)), url('sample.jpg');
+        background-size: cover;
+        font-family: sans-serif ;
+    }
+    nav{
+        width: 100%;
+        height: 100px;
+        color: white;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .logo{
+        font-size: 3em;
+        letter-spacing: 3px;
+    }
+    .menu a{
+        text-decoration: none;
+        color: white;
+        padding: 10px 20px;
+        font-size: 18px;
+        position: relative;
+    }
+    .menu a:before{
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 0%;
+        height: 100%;
+        border-bottom: 2px solid firebrick;
+        transition: 0.39s linear;
+    }
+    .menu a:hover:before{
+        width: 95%;
+    }
+    .register a{
+        text-decoration: none;
+        color: white;
+        padding: 10px 20px;
+        font-size: 20px;
+        background: firebrick;
+        border-radius: 8px;
+        transition: 0.4s;
+    }
+    .register a:hover{
+        background: transparent;
+        border: 0.1px solid firebrick;
+    }
+
+</style>
+</head>
+<body>
+
+<header>
+    <nav>
+        <div class="logo">
+            AlphA
+        </div>
+        <div class="menu">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Contact us</a>
+        </div>
+        <div class="register">
+            <a href="#">Register</a>
+        </div>
+    </nav>
+<div>    
+</a>
+<hr><hr><hr>
+<a href="">
+    <button>Chats</button>
+  </a>
+  <a href="">
+    <button>Shopping</button>
+  </a>
+  <a href="">
+    <button>Remainder</button>
+  </a>
+  <a href="">
+    <button>Simulation</button>
+  </a>
+</div>
+</header>
+</body>
+</html>
